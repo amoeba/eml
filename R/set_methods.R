@@ -10,16 +10,6 @@
 #'
 #' @return A methods object
 #' @export
-#'
-#' @examples
-#' \donttest{
-#' f <- system.file("examples/hf205-methods.md", package = "EML")
-#' set_methods(methods_file = f)
-#' 
-#' ## Can also import from methods written in a .docx MS Word file.
-#' f <- system.file("examples/hf205-methods.docx", package = "EML")
-#' set_methods(methods_file = f)
-#' }
 set_methods <- function(methods_file,
                         instrumentation = character(),
                         software = NULL,
